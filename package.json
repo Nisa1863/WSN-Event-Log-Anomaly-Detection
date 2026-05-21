@@ -1,0 +1,14 @@
+{
+  "name": "wsn-anomaly-detection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WSN Event Logları ile Veri Odaklı Anomali Tespiti",
+  "scripts": {
+    "backend": "cd backend && ./venv/bin/python app.py",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
